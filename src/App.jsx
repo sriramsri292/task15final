@@ -1,18 +1,20 @@
 
 import './App.css';
-import PriceCard from './components/TextInput/PriceCard/PriceCard';
+import Calculator from './component';
+import FormTable from './component/form';
 
 
 
 
-
-function App() {
+function App() 
+{
   return (
-    <div className="App">
-     
-    <PriceCard/>
-    </div>
+    <div> 
+   <Calculator/>
+   <FormTable/>
+   </div>
   );
 }
 
 export default App;
+
